@@ -6,7 +6,7 @@ class App extends Component {
   };
   increment = () => {
     this.setState({
-      count: this.state.count + 1
+      count: this.state.count + 2
     });
   };
   render() {
